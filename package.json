@@ -1,0 +1,39 @@
+{
+  "name": "ecotrack",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@nivo/bar": "^0.87.0",
+    "@nivo/line": "^0.87.0",
+    "@nivo/pie": "^0.87.0",
+    "@radix-ui/react-progress": "^1.1.0",
+    "autoprefixer": "^10.4.20",
+    "framer-motion": "^11.9.0",
+    "gsap": "^3.12.5",
+    "lucide-react": "^0.446.0",
+    "next": "14.2.13",
+    "next-themes": "^0.3.0",
+    "react": "^18",
+    "react-countup": "^6.5.3",
+    "react-dom": "^18",
+    "react-feather": "^2.0.10",
+    "react-toastify": "^10.0.5",
+    "recharts": "^2.12.7"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.13",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}
