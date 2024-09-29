@@ -1,12 +1,12 @@
 import Link from 'next/link'
-import { Icon } from './Icon'
+import { Icon, IconName } from './Icon'
 import { motion } from 'framer-motion'
 
 interface SidebarProps {
   isOpen: boolean
 }
 
-const menuItems = [
+const menuItems: Array<{ href: string; icon: IconName; label: string }> = [
   { href: '/dashboard', icon: 'Home', label: 'Dashboard' },
   { href: '/devices', icon: 'Smartphone', label: 'Devices' },
   { href: '/insights', icon: 'BarChart2', label: 'Insights' },
